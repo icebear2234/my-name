@@ -1,0 +1,36 @@
+div{
+    text-align: center;
+}
+#navbar {
+    background-color:cornflowerblue;
+    border-style:solid;
+    border-color:black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: "Segoe",Tahoma, sans-serif ;
+    position: sticky;
+    top:0px;
+}
+
+.image-overlap-info, .image-beside-info {
+    background-color:lightgrey;
+}
+
+    .wrapper { 
+        width: 1000px;
+    }
+
+    .image-overlap, .image-beside {
+        background-color:cornflowerblue;
+        height: 300px;
+        width: 800px;
+    }
+
+    /* Part 1 */
+    .image-overlap-info {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        top: -180px;
+        float:right;
+      }
